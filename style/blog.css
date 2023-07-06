@@ -49,9 +49,13 @@ cursor: pointer;
     color: white;
     justify-content: space-around;
     height: 100vh;
-    border: 2px solid crimson;
+    
     align-items: center;
     background-image: url("../icon/background.png"),linear-gradient(45deg,#1e1d1d,#0a0a0a);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .tittle{
@@ -72,4 +76,30 @@ cursor: pointer;
 }
 .bot:hover{
     color: blue;
+}
+
+.me{
+
+    width: 300px;
+}
+
+.md{
+    text-align: center;
+   padding-top:30px ;
+
+}
+
+.info{
+
+display: flex;
+justify-content: space-around;
+align-items:center ;
+flex-direction: row-reverse;
+
+height: 55vh;
+
+}
+
+.name{
+    color:orangered;
 }
