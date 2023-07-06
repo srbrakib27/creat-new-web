@@ -103,3 +103,45 @@ height: 55vh;
 .name{
     color:orangered;
 }
+.our{
+    text-align: center;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    text-align: center;
+    padding: 15px ;
+    color: white;
+   
+}
+
+.icon{
+    width: 70px;
+}
+
+.bt{
+    background-color: rgb(102, 102, 249);
+    margin-top: 10px;
+}
+.box-taital{
+    padding: 10px;
+}
+
+.per{
+    padding: 10px;
+}
+
+.servic{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(20, 17, 17);
+    height: 70vh;
+    align-items: center;
+}
+
+.mmd{
+    text-align: center;
+    padding: 30px;
+}
